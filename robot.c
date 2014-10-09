@@ -29,7 +29,7 @@ void robPrintMessage(int num)
 
   for(i; i < num; i++)
     {
-      printf("really ultra ");
+      printf("really ultra MEGA ");
     }
 
   printf("loves robots!\n");

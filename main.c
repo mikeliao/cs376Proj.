@@ -9,7 +9,7 @@
  *
  */
 #include "robot.h"
-
+#include "username.h"
 /**
  * main()
  *
@@ -34,5 +34,6 @@ int main(int argc, const char * argv[])
 
   robPrintMessage(num);
 
+  username();
   return 0;
 }
