@@ -23,7 +23,7 @@
  */
 void robPrintMessage(int num)
 {
-  int i = 0;
+   int i= 0;
 
   printf("Michael Liao ");
 
@@ -43,9 +43,16 @@ void robPrintMessage(int num)
  */
 void robPrintAscii(void)
 {
-  printf("    i_i    \n"
-	 "   [!_!]   \n"
-	 "  /|___|\\  \n"
-         "   d   b   "); 
+  int i = 0;
 
+  char * spaces[3] = {"", "        ", "             "};
+
+  for ( i; i != 3; i++){
+
+    printf("%s    i_i    \n", spaces[i]);
+    printf("%s   [!_!]   \n", spaces[i]);
+    printf("%s  /|___|\\  \n", spaces[i]); 
+    printf("%s   d   b    \n" , spaces[i]); 
+
+  }
 }
