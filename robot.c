@@ -43,9 +43,21 @@ void robPrintMessage(int num)
  */
 void robPrintAscii(void)
 {
+  int i == 0;
+  for ( i; i != 3; i++){
+    if( i==1){
+
+  printf("    i_i    \n"
+         "   [!_!]   \n"
+         "  /|___|\\  \n"
+         "   d   b   ");
+
+
+    } 
   printf("    i_i    \n"
 	 "   [!_!]   \n"
 	 "  /|___|\\  \n"
          "   d   b   "); 
 
+  }
 }
